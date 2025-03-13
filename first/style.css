@@ -1,0 +1,253 @@
+body{
+    background-color: #000000f5;
+    margin: 0;
+    box-shadow: 5px 5px 5px #11212fb8;
+    font-family: 'poppins', sans-serif;
+}
+nav{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    top: 5px;
+    padding: 25px;
+    width: 95%;
+    height: 20px;
+    margin: 0 10px 100px 10px;
+    background-color:#000000a5;
+     border: 1px solid rgb(225, 239, 251);
+     box-shadow: 3px 2px 2px rgba(100, 140, 176, 0.704);
+    border-radius: 10px;
+    position: fixed;
+    z-index: 2;
+}
+/*#ebe9e9c9  #f7f7f7*/
+nav h1 {
+    margin: 0;
+    color: whitesmoke;
+    text-transform: uppercase;
+   font-size: 25px;
+}
+.illusion {
+    background-image: url(nightwing4.jpg);
+    background-size: cover;
+    margin: 90px auto 15px;
+    top: 100px;
+    width: 95%;
+    height: 95vh;
+    border: 1px solid #c4e3ff;
+    border-radius: 8px;
+    box-shadow: 2px 2px 2px #94acc1;
+}
+.text {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    padding: 8px;
+    color: white;
+    align-items: center;
+    width: 100%;
+    margin-top: 20px;
+}
+.text h2 {
+   margin:10px auto 0 ;
+    line-height:1.7;
+    margin-bottom:0 ;
+    font-size: 25px;
+    text-transform: uppercase;
+}
+p {
+   margin-top: 10px;
+    font-size: 20px;
+    font-weight:400;
+    text-transform: capitalize;
+    line-height: 1.5;
+
+}
+
+.cards {
+    margin: 15px auto;
+    display: grid;
+    grid-template-columns:repeat(4,1fr);
+    width: 97%;
+    gap: 15px;
+    padding: 10px;
+}
+.char {
+   
+    background-color: whitesmoke;
+    border: 1px solid lightgrey;
+    box-shadow: 3px 3px 3px  rgba(133, 198, 255, 0.658);
+    border-radius: 10px;
+    
+}
+.disc {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 5px auto;
+}
+.disc h3 {
+    color: rgba(0, 0, 0, 0.897);
+    text-transform: uppercase;
+    margin: 0;
+}
+.disc p {
+    font-weight: bolder;
+    font-size: 11px;
+    color: rgb(0, 0, 0);
+}
+.char img {
+    border-radius: 10px;
+    width: 100%;
+    
+}
+button {
+    color: rgba(29, 21, 21, 0.849);
+    font-size: 15px;
+    font-weight: bold;
+    padding: 8px;
+    border-radius: 10px;
+    text-transform: capitalize;
+    background-color: whitesmoke;
+    border: 3px solid rgba(236, 154, 145, 0.774);
+    left: 0;
+    transform: translate(110%);
+    margin-bottom: 8px;
+    box-shadow: 3px 3px 3px rgba(216, 112, 147, 0.671);
+    transition: background-color 0.4s ease-in-out linear, 0.3s ease-in-out;
+}
+button:hover {
+    transition-delay:0.2s;
+    color: white;
+    background-color:rgb(247, 127, 147);
+}
+.bye {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    margin: 25px auto 0;
+}
+.bye p {
+    color: rgb(240, 180, 70);
+    text-transform: uppercase;
+    
+}
+.end {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    top: 5px;
+    padding: 25px;
+    width: 95%;
+    height: 20px;
+    margin: 35px 0 10px 10px;
+    background-color:#000000a5;
+     border: 1px solid rgb(225, 239, 251);
+     box-shadow: 3px 2px 2px rgba(100, 140, 176, 0.704);
+    border-radius: 10px;
+}
+.end p {
+    color: white;
+} 
+@media (max-width: 768px) {
+    nav {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    top: 5px;
+    padding: 25px;
+    width: 350px;
+    height: 15px;
+    margin: 0 10px 200px 10px;
+    background-color:#000000a5;
+     border: 1px solid rgb(225, 239, 251);
+     box-shadow: 3px 2px 2px rgba(100, 140, 176, 0.704);
+    border-radius: 10px;
+    position: fixed;
+    z-index: 2;
+    }
+    .illusion {
+        background-image: url(nightwing4.jpg);
+        background-size:cover;
+        margin: 90px auto 15px;
+        top: 100px;
+        width: 380px;
+        height: 340px;
+        border: 1px solid #c4e3ff;
+        border-radius: 8px;
+        box-shadow: 2px 2px 2px #94acc1;
+  }
+  .text {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    padding: 8px;
+    color: white;
+    align-items: center;
+    width: 400px;
+    margin-top: 20px;
+}
+p {
+    width: 360px;
+   margin: 10px 10px 0;
+    font-size: 15px;
+    font-weight:600;
+    text-transform: capitalize;
+    line-height: 1.5;
+}
+.cards {
+    margin: 15px auto;
+    display: grid;
+    grid-template-columns:repeat(1,1fr);
+    width: 97%;
+    gap: 15px;
+    padding: 10px;
+}
+.char {
+   width: 390px;
+    background-color: whitesmoke;
+    border: 1px solid lightgrey;
+    box-shadow: 3px 3px 3px  rgba(133, 198, 255, 0.658);
+    border-radius: 10px;
+    
+}
+.disc {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 5px auto;
+}
+.disc h3 {
+    color: rgb(34, 33, 33);
+    text-transform: uppercase;
+    margin: 0;
+}
+.disc p {
+    width: 385px;
+    margin: 5px 0px 10px 8px;
+    font-weight: 600;
+    font-size: 14px;
+    color: rgb(0, 0, 0);
+}
+button {
+    width: 115px;
+   
+}
+.bye {
+    margin: 15px 0 20px 135px;
+    width: 300px;
+}
+.bye p {
+    font-size: 20px;
+    width:250px;
+}
+.end {
+    width: 350px;
+}
+.end p {
+    width: 250px;
+}
+}
+
